@@ -1,5 +1,6 @@
 package com.SuperHero.step_definitions;
 
+import utils.TestBase;
 import com.SuperHero.pages.SuperHeroLoginPage;
 import com.project001.utilities.ConfigurationReader;
 import com.project001.utilities.Driver;
@@ -8,7 +9,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 
-public class SuperHeroLoginStepDef {
+public class SuperHeroLoginStepDef  {
     // create an object to get methods and locators from LoginPAge
     public SuperHeroLoginPage lp = new SuperHeroLoginPage();
 
