@@ -1,0 +1,14 @@
+for checking which remote name
+git remote -v
+
+first time creation
+git init
+
+
+push ing code to repository
+// git status
+git add .
+git commit -m "Message"
+git push origin master
+
+
