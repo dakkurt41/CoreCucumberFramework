@@ -3,79 +3,50 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2020-01-04T05:29:57.860Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1834822268,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hook.setup()"
-            }
-          }
-        ],
-        "line": 71,
-        "name": "Login and verify table values",
+        "start_timestamp": "2020-07-22T03:15:29.568Z",
+        "line": 21,
+        "name": "Login as (data table example)",
         "description": "",
-        "id": "login;login-and-verify-table-values;drivers;2",
-        "after": [
-          {
-            "result": {
-              "duration": 92946520,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hook.teardown(Scenario)"
-            }
-          }
-        ],
+        "id": "login;login-as-(data-table-example)",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 6456807195,
+              "status": "passed"
             },
-            "line": 63,
+            "line": 22,
             "name": "user is on the restful booker login page",
-            "match": {},
+            "match": {
+              "location": "LoginStepDefinitions.userIsOnTheRestfulBookerLoginPage()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 174558418,
+              "status": "passed"
             },
-            "line": 64,
-            "name": "user navigates to \"API Docs\"",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "undefined"
+            "line": 23,
+            "name": "user log in with following credentials",
+            "match": {
+              "location": "LoginStepDefinitions.userLogInWithFollowingCredentials(String,String\u003e)"
             },
-            "line": 65,
-            "name": "verify title should be \"Restful-booker\"",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 66,
-            "name": "click on \"GetBookingIds\"",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 67,
-            "name": "verify table values \"firstname\" , \"lastname\" , \"checkin\"",
-            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "link1",
+                  "API Docs"
+                ]
+              },
+              {
+                "cells": [
+                  "link2",
+                  "Website"
+                ]
+              }
+            ],
             "keyword": "Then "
           }
         ],
@@ -84,7 +55,7 @@
             "name": "@F0001"
           },
           {
-            "name": "@login_ddt_3"
+            "name": "@data_table_map"
           }
         ]
       }

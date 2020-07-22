@@ -1,4 +1,4 @@
-package com.project001.runners;
+package com.SuperHero.runners;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -6,8 +6,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/resources/features/project001_features",
-        glue = "com/project001/step_definitions",
+        features = "/Users/mdogan/Desktop/project2020/CoreCucumber/CoreCucumberFramework/src/test/resources",
+        glue = "/Users/mdogan/Desktop/project2020/CoreCucumber/CoreCucumberFramework/src/test/java/com/SuperHero/step_definitions",
         dryRun = false,
         tags = "@smoke",
         plugin = {"html:target/default-cucumber-reports",

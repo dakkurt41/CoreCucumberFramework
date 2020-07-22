@@ -1,0 +1,25 @@
+
+properties file
+collection of map
+
+key = value
+credantials info
+
+
+username = dafa
+password = daga
+
+url = hhhtll
+
+
+// utill page
+
+resuable methods
+once time creation of methods and use multiple time
+
+
+// test base
+
+in order to run cucumber
+    1 - feature files -- where english language, what we are testing
+    2 - Runner clas  --

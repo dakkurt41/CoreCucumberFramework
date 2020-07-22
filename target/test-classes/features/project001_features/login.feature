@@ -11,7 +11,7 @@ Feature: Login
     And user verifies that "API Docs" links
 
 
-  Scenario: Login Home page
+  Scenario: Login Home page1
     When user is on the restful booker login page
     Then user verify the home page subtitles
     And user verifies that "Website" links displayed
