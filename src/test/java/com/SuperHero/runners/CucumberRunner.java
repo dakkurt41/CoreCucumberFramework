@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources",
         glue = "src/test/java/com/SuperHero/step_definitions",
         dryRun = false,
-        tags = "@smoke",
+//        tags = "@smoke",
         plugin = {"html:target/default-cucumber-reports",
                 "json:target/cucumber.json",
                 "rerun:target/rerun.txt"

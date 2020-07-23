@@ -49,15 +49,15 @@ public class SuperHeroLoginPage {
         email.sendKeys("data@gmail.com");
         BrowserUtils.wait(1);
         password.sendKeys("23456789");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         submitButton.click();
-        BrowserUtils.waitForPageToLoad(5);
+        BrowserUtils.waitForPageToLoad(1);
     }
 
 
     public void navigateHomeLink(){
         homeNavLink.click();
-        BrowserUtils.wait(2);
+        BrowserUtils.wait(1);
         Assert.assertEquals("Welcome. Please Log In.", loginTitleText.getText());
     }
 

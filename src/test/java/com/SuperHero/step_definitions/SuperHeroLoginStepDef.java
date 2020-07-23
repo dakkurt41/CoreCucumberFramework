@@ -1,6 +1,5 @@
 package com.SuperHero.step_definitions;
 
-import utils.TestBase;
 import com.SuperHero.pages.SuperHeroLoginPage;
 import com.project001.utilities.ConfigurationReader;
 import com.project001.utilities.Driver;
@@ -14,7 +13,7 @@ public class SuperHeroLoginStepDef  {
     public SuperHeroLoginPage lp = new SuperHeroLoginPage();
 
 
-    @When("user open login page1")
+    @When("user open login page")
     public void user_open_login_page() {
 
         Driver.get().get(ConfigurationReader.getProperty("superHeroUrl"));
